@@ -4,13 +4,13 @@ import "firebase/firestore";
 import "firebase/storage";
 
 const app = firebase.initializeApp({
-  apiKey: "AIzaSyBUEgFlC8TfZ4Yi5cPNnO9-GHm8kpbEBzk",
-  authDomain: "gramolybmc.firebaseapp.com",
-  projectId: "gramolybmc",
-  storageBucket: "gramolybmc.appspot.com",
-  messagingSenderId: "515578685707",
-  appId: "1:515578685707:web:7d75b230ac1dec057e9a0e",
-  measurementId: "G-15F7PLZ5C8",
+  // HERE YOU HAVE TO PUT YOUR CONFIG VARIABLES WHICH FIREBASE WILL GIVE YOU
+  // GO TO FIREBASE, CREATE A PROJECT THEN ADD A WEB APP
+  // THEN GO TO PROJECT SETTINGS AND SCROLL TO THE BOTTOM
+  //THEN YOU WILL SEE 3 SDK, CLICK ON CONFIG
+  // THEN COPY FROM THE "apikey" TO "mesurementId"
+  // AND THEN PASTE IT HERE.
+  // THEN YOU ARE READY TO GO!
 });
 
 const firestore = app.firestore();
